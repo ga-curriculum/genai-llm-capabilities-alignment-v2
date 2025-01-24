@@ -9,7 +9,7 @@
 
 ### **I. [Explore Different Stages of Building LLM Applications](#explore-different-stages-of-building-llm-applications)**  
 #### **A. [Building LLMs from Scratch](#building-llms-from-scratch)**  
-i.A.1. [Defining Architecture  (e.g., Transformer)](#defining-architecture-eg-transformer)
+1. [Defining Architecture  (e.g., Transformer)](#defining-architecture-eg-transformer)
 2. [Collecting and Preprocessing Large Datasets](#collecting-and-preprocessing-large-datasets)
 3. [Training on Large-Scale Infrastructure](#training-on-large-scale-infrastructure) 
 4. [Validating and Fine-Tuning for Task-Specific Accuracy](#validating-and-fine-tuning-for-task-specific-accuracy)  
@@ -79,7 +79,7 @@ Large Language Models (LLMs) have become the backbone of numerous AI application
 
 ---
 
-#### **I.A.1. Defining Architecture (e.g., Transformer)**
+#### **1. Defining Architecture (e.g., Transformer)**
 
 The architecture of a Large Language Model (LLM) is its foundational blueprint, determining its ability to learn and process language efficiently.
 
@@ -112,7 +112,7 @@ The architecture of a Large Language Model (LLM) is its foundational blueprint, 
 ---
 
 
-#### **I.A.2. Collecting and Preprocessing Large Datasets**
+#### **2. Collecting and Preprocessing Large Datasets**
 
 High-quality datasets are the backbone of any successful LLM. Collecting and preprocessing data ensures the model has a diverse and reliable foundation for training.
 
@@ -142,7 +142,7 @@ High-quality datasets are the backbone of any successful LLM. Collecting and pre
 
 ---
 
-#### **I.A.3. Training on Large-Scale Infrastructure**
+#### **3. Training on Large-Scale Infrastructure**
 
 Training an LLM involves processing massive datasets through complex models, requiring high-performance infrastructure to achieve scalability and efficiency.
 
@@ -180,7 +180,7 @@ Training an LLM involves processing massive datasets through complex models, req
 
 ---
 
-#### **I.A.4. Validating and Fine-Tuning for Task-Specific Accuracy**
+#### **4. Validating and Fine-Tuning for Task-Specific Accuracy**
 
 Validation and fine-tuning are critical to ensuring an LLM performs accurately and reliably for specific use cases.
 
@@ -251,7 +251,7 @@ Pretrained LLMs provide a practical and cost-effective way to build AI applicati
 
 ---
 
-#### **I.B.1. Selecting Pretrained LLMs (e.g., GPT, PaLM, LLaMA)**
+#### **1. Selecting Pretrained LLMs (e.g., GPT, PaLM, LLaMA)**
 
 Pretrained LLMs are models that have been trained on extensive datasets and are ready to be adapted or used directly for various applications. Selecting the right pretrained model is a crucial step in building effective AI applications.
 
@@ -281,7 +281,7 @@ Pretrained LLMs are models that have been trained on extensive datasets and are 
 ---
 
 
-#### **I.B.2. Defining Application Goals (e.g., Chatbots, Content Generation)**
+#### **2. Defining Application Goals (e.g., Chatbots, Content Generation)**
 
 Setting clear and well-defined application goals is essential for effectively leveraging pretrained LLMs. The goals guide model selection, integration, and optimization processes.
 
@@ -317,7 +317,7 @@ Setting clear and well-defined application goals is essential for effectively le
 ---
 
 
-#### **I.B.3. Integrating via APIs or Libraries**
+#### **3. Integrating via APIs or Libraries**
 
 Integrating pretrained LLMs into applications can be done efficiently through APIs or open-source libraries, making it easier to deploy models for a wide range of use cases.
 
@@ -354,7 +354,7 @@ Integrating pretrained LLMs into applications can be done efficiently through AP
 
 ---
 
-#### **I.B.4. Evaluating Performance for Chosen Tasks**
+#### **4. Evaluating Performance for Chosen Tasks**
 
 Evaluating the performance of pretrained LLMs is critical to ensure they meet the application’s specific requirements and deliver reliable results.
 
@@ -416,7 +416,7 @@ Evaluating the performance of pretrained LLMs is critical to ensure they meet th
 
 ---
 
-### **I.C. Fine-Tuning Pretrained LLMs**
+### **C. Fine-Tuning Pretrained LLMs**
 
 Fine-tuning is the process of adapting a pretrained LLM to a specific domain or application by training it on smaller, domain-specific datasets. This approach strikes a balance between leveraging existing capabilities and tailoring the model for specialized use cases.
 

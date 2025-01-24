@@ -68,11 +68,10 @@
 ### **Learning Objectives**
 
 1. Understand the process of designing and building LLMs from scratch.  
-2. Learn how to collect, clean, and preprocess large datasets for training.  
-3. Explore the infrastructure and tools required for training large-scale models.  
-4. Identify techniques for validating and fine-tuning RAG systems for accurate knowledge retrieval.  
+2. Learn how to collect, clean, and preprocess large datasets for training LLM.  
+3. Explore the different stages of Building LLM Appllications.  
+4. Identify techniques for validating  RAG systems for accurate knowledge retrieval.  
 5. Recognize the advantages and challenges of using vector databases in RAG.  
-6. Compare the integration of retrieval modules with generative models in RAG versus traditional LLMs.  
 7. Gain insights into optimizing costs, scalability, and efficiency in developing RAG-based applications.  
 
 ---

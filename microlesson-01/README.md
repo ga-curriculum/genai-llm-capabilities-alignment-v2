@@ -5,7 +5,7 @@
 
 # **Gen AI: LLM Capabilities and Alignment**
 
-## **[Table of Contents]**(#table-of-content)
+## **[Table of Contents]**(#table-of-contents)
 ## **[Learning Objectives]**(#learning-objectives)
 
 ### **I. [Explore Different Stages of Building LLM Applications](#explore-different-stages-of-building-llm-applications)**  

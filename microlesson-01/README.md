@@ -9,7 +9,7 @@
 
 ### **I. [Explore Different Stages of Building LLM Applications](#explore-different-stages-of-building-llm-applications)**  
 #### **A. [Building LLMs from Scratch](#building-llms-from-scratch)**  
-1. [Defining Architecture  (e.g., Transformer)](#defining-architecture-eg-transformer)
+i.A.1. [Defining Architecture  (e.g., Transformer)](#defining-architecture-eg-transformer)
 2. [Collecting and Preprocessing Large Datasets](#collecting-and-preprocessing-large-datasets)
 3. [Training on Large-Scale Infrastructure](#training-on-large-scale-infrastructure) 
 4. [Validating and Fine-Tuning for Task-Specific Accuracy](#validating-and-fine-tuning-for-task-specific-accuracy)  

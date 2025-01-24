@@ -13,7 +13,8 @@
 1. [Defining Architecture  (e.g., Transformer)](#defining-architecture-eg-transformer)
 2. [Collecting and Preprocessing Large Datasets](#collecting-and-preprocessing-large-datasets)
 3. [Training on Large-Scale Infrastructure](#training-on-large-scale-infrastructure) 
-4. [Validating and Fine-Tuning for Task-Specific Accuracy](#validating-and-fine-tuning-for-task-specific-accuracy)  
+4. [Validating and Fine-Tuning for Task-Specific Accuracy](#validating-and-fine-tuning-for-task-specific-accuracy)
+5. [Discussion](#discussion)
 
 #### **B. [Building Applications Using Pretrained LLMs](#building-applications-using-pretrained-llms)**  
 1. [Selecting Pretrained LLMs (e.g., GPT, PaLM, LLaMA)](#selecting-pretrained-llms-eg-gpt-palm-llama)  

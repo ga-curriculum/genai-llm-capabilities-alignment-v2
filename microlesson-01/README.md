@@ -1,6 +1,6 @@
 <h1>
   <span class="headline">[Gen AI: LLM Capabilities and Alignment]</span>
-  <span class="subhead">tktk Microlesson 01</span>
+  <span class="subhead"></span>
 </h1>
 
 

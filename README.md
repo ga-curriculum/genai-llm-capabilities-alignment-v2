@@ -1,11 +1,11 @@
 <h1>
-  <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="prefix">genai-llm-capabilities-alignment</span>
+  <span class="headline"></span>
 </h1>
 
 ## About
 
-This module covers building LLMs, exploring pretraining, fine-tuning, and RAG (Retrieval-Augmented Generation) techniques to enhance performance, scalability, and application-specific adaptability in AI systems.
+This Session covers building LLMs, exploring pretraining, fine-tuning, and RAG (Retrieval-Augmented Generation) techniques to enhance performance, scalability, and application-specific adaptability in AI systems.
 
 ## Content
 

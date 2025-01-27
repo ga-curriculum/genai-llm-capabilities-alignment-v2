@@ -1,11 +1,10 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">[*Gen AI: LLM Capabilities and Alignment]</span>
   <span class="subhead">tktk Microlesson 01</span>
 </h1>
 
-# **Gen AI: LLM Capabilities and Alignment**
 
-## [Table of Contents](#table-of-contents)
+## [Table of Contents]
 ## [Learning Objectives](#learning-objectives)
 
 ### **I. [Explore Different Stages of Building LLM Applications](#explore-different-stages-of-building-llm-applications)**  

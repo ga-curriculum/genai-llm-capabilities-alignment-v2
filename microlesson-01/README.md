@@ -1700,10 +1700,10 @@ EduSmart, an edtech company, integrates RAG to create personalized study plans f
 #### **Scenario 5: LexiLaw - RAG for Legal Document Summarization**
 LexiLaw, a legal tech startup, uses RAG to summarize lengthy contracts and case law for attorneys. The system retrieves relevant sections efficiently but struggles with generating concise and legally precise summaries for complex clauses.
 
-- **Discussion Questions**:
-  1. How can LexiLaw ensure the accuracy and legal compliance of its RAG-generated summaries?
-  2. What fine-tuning techniques can improve the system’s ability to handle domain-specific jargon and legal language?
-  3. How can LexiLaw evaluate and address edge cases, such as ambiguous or contradictory clauses, in legal documents?
+  - **Discussion Questions**:
+  - **How can LexiLaw ensure the accuracy and legal compliance of its RAG-generated summaries?**
+  - **What fine-tuning techniques can improve the system’s ability to handle domain-specific jargon and legal language?**
+  - **How can LexiLaw evaluate and address edge cases, such as ambiguous or contradictory clauses, in legal documents?**
 
 ---
 

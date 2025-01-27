@@ -1141,13 +1141,13 @@ Chatbots and virtual assistants powered by Retrieval-Augmented Generation (RAG) 
   - Reduces reliance on static training data, ensuring responses adapt to evolving knowledge.
 
 - **Use Cases**:  
-  1. **Customer Support**:  
+  - **Customer Support**:  
      - A RAG-based chatbot can retrieve company policy details or troubleshooting steps from internal documents and generate personalized replies to customer queries.  
      - Example: Resolving technical issues for users by retrieving solutions from a support knowledge base.  
-  2. **Healthcare Assistants**:  
+  - **Healthcare Assistants**:  
      - Virtual assistants retrieve the latest medical guidelines or research papers to provide accurate medical advice.  
      - Example: Summarizing symptoms and treatment options for diabetes.  
-  3. **Educational Tools**:  
+  - **Educational Tools**:  
      - Assists students or teachers by retrieving answers or explanations from textbooks or online resources.  
      - Example: Answering science-related questions with explanations grounded in reliable sources.  
 
@@ -1176,13 +1176,13 @@ Retrieval-Augmented Generation (RAG) enhances document summarization by dynamica
   - Reduces processing time by focusing on specific sections rather than the entire document.
 
 - **Use Cases**:  
-  1. **Legal Contracts**:  
+  - **Legal Contracts**:  
      - RAG can extract and summarize key clauses or obligations from lengthy legal agreements.  
      - Example: Summarizing non-compete or confidentiality clauses in employment contracts.  
-  2. **Research Papers**:  
+  - **Research Papers**:  
      - Summarizes key findings, methodologies, or conclusions from academic research.  
      - Example: Providing a one-paragraph summary of a medical research paper's findings.  
-  3. **Meeting Transcripts**:  
+  - **Meeting Transcripts**:  
      - Retrieves key discussion points or action items from long meeting recordings or transcripts.  
      - Example: Summarizing the main decisions and assigned tasks from a corporate meeting.  
 
@@ -1211,13 +1211,13 @@ Retrieval-Augmented Generation (RAG) excels in domain-specific knowledge retriev
   - Bridges the gap between vast unstructured data and actionable insights.  
 
 - **Use Cases**:  
-  1. **Legal Industry**:  
+  - **Legal Industry**:  
      - RAG retrieves relevant case law, legal precedents, or statutory provisions to assist in legal research.  
      - Example: Summarizing case outcomes and applicable laws for a specific legal query.  
-  2. **Finance**:  
+  - **Finance**:  
      - Retrieves financial reports, stock market data, or investment analyses to answer user queries.  
      - Example: Explaining key financial indicators in a company’s quarterly earnings report.  
-  3. **Healthcare**:  
+  - **Healthcare**:  
      - Accesses medical literature, clinical trials, or treatment guidelines to provide accurate medical advice.  
      - Example: Summarizing the latest clinical trial results for a cancer treatment.  
 
@@ -1246,13 +1246,13 @@ RAG (Retrieval-Augmented Generation) significantly enhances enterprise knowledge
   - Integrates seamlessly with existing knowledge management systems to enhance search and retrieval capabilities.  
 
 - **Use Cases**:  
-  1. **Employee Onboarding**:  
+  - **Employee Onboarding**:  
      - Provides quick access to HR policies, training manuals, and company guidelines.  
      - Example: A new hire uses a chatbot to retrieve the company’s leave policy from the internal knowledge base.  
-  2. **Sales and CRM Support**:  
+  - **Sales and CRM Support**:  
      - Assists sales teams by retrieving and summarizing customer information, deal histories, and pipeline data.  
      - Example: Summarizing client interaction history to help sales representatives prepare for meetings.  
-  3. **IT and Technical Support**:  
+  - **IT and Technical Support**:  
      - Helps IT teams troubleshoot issues by retrieving solutions from internal technical documentation.  
      - Example: Resolving software deployment errors using retrieved troubleshooting guides.  
 
@@ -1281,13 +1281,13 @@ RAG (Retrieval-Augmented Generation) enables the creation of personalized conten
   - Adapts outputs to user-specific contexts, such as tone, style, or format.
 
 - **Use Cases**:  
-  1. **E-Commerce Recommendations**:  
+  - **E-Commerce Recommendations**:  
      - Generates personalized product descriptions or recommendations based on browsing and purchase history.  
      - Example: Suggesting products that complement a user’s recent purchase, with customized descriptions.  
-  2. **Email and Marketing Campaigns**:  
+  - **Email and Marketing Campaigns**:  
      - Creates tailored email content for marketing campaigns by retrieving customer insights.  
      - Example: Generating personalized promotional emails that include specific product recommendations.  
-  3. **Learning Platforms**:  
+  - **Learning Platforms**:  
      - Generates custom learning paths or study materials based on a user’s progress or preferences.  
      - Example: Providing a student with a personalized study guide for weak topics in a course.  
 
@@ -1316,13 +1316,13 @@ RAG (Retrieval-Augmented Generation) provides multilingual support by retrieving
   - Leverages pre-trained multilingual models like mBERT, XLM-R, or PaLM for cross-lingual understanding and generation.
 
 - **Use Cases**:  
-  1. **Global Customer Support**:  
+  - **Global Customer Support**:  
      - Enables chatbots to retrieve and respond to queries in multiple languages.  
      - Example: A customer support assistant retrieves solutions in English but generates responses in Spanish or French based on the user’s preference.  
-  2. **Cross-Lingual Document Summarization**:  
+  - **Cross-Lingual Document Summarization**:  
      - Summarizes documents in one language and generates outputs in another.  
      - Example: Summarizing an English research paper and providing the summary in German.  
-  3. **Multilingual Knowledge Bases**:  
+  - **Multilingual Knowledge Bases**:  
      - Retrieves and integrates data from multilingual sources to answer complex queries.  
      - Example: An educational platform retrieving resources from French, Spanish, and English databases.  
 
@@ -1356,13 +1356,13 @@ The foundation of RAG systems lies in storing and retrieving embeddings efficien
   - Example: The sentence "What is the weather today?" and "What's the forecast?" have similar embeddings due to their semantic similarity.
 
 - **How Similarity-Based Retrieval Works**:  
-  1. **Query Conversion**:  
+  - **Query Conversion**:  
      - The input query is converted into an embedding using a pre-trained model like BERT, Sentence Transformers, or OpenAI’s embedding models.  
-  2. **Similarity Search**:  
+  - **Similarity Search**:  
      - The query embedding is compared to embeddings stored in a vector database using similarity metrics like cosine similarity.  
-  3. **Top Matches**:  
+  - **Top Matches**:  
      - The most relevant embeddings are retrieved based on their similarity scores.  
-  4. **Passing to Generative Module**:  
+  - **Passing to Generative Module**:  
      - Retrieved results are then passed to the generative model for response synthesis.  
 
 - **Advantages of Embedding Storage**:  

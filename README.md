@@ -25,9 +25,13 @@ This module covers building LLMs, exploring pretraining, fine-tuning, and RAG (R
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
+### **Prerequisites for the Module**
+
+1. **Basic Knowledge of AI and NLP**  
+   - Familiarity with natural language processing concepts and AI fundamentals.
+
+2. **Python Programming**  
+   - Ability to write and understand Python code.
 
 ### Starter code
 

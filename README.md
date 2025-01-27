@@ -5,7 +5,7 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module covers building LLMs, exploring pretraining, fine-tuning, and RAG (Retrieval-Augmented Generation) techniques to enhance performance, scalability, and application-specific adaptability in AI systems.
 
 ## Content
 

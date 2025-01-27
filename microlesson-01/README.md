@@ -197,7 +197,7 @@ Training an LLM involves processing massive datasets through complex models, req
     - Horovod and DeepSpeed for distributed training across multiple GPUs/TPUs.
 
 - **Training Steps**:  
-  1. **Data Loading**: Feed preprocessed data into the model in batches.  
+  - **Data Loading**: Feed preprocessed data into the model in batches.  
   2. **Forward Pass**: Compute model predictions and losses.  
   3. **Backward Pass**: Update weights using optimization algorithms (e.g., AdamW).  
   4. **Epoch Completion**: Repeat the process over multiple passes of the data.  

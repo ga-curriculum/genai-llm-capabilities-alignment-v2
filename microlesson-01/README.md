@@ -189,7 +189,7 @@ Training an LLM involves processing massive datasets through complex models, req
 
 - **Key Requirements**:  
   - **Hardware**:  
-    - GPUs (e.g., NVIDIA A100) and TPUs (e.g., Google TPU Pods) for parallel processing.  
+    - GPUs for parallel processing.  
     - High-speed storage (e.g., SSDs) and large RAM for faster data access.  
   - **Frameworks**:  
     - PyTorch, TensorFlow, or JAX for building and training LLMs.  

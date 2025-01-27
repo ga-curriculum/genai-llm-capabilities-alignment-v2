@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">[*Gen AI: LLM Capabilities and Alignment]</span>
+  <span class="headline">[Gen AI: LLM Capabilities and Alignment]</span>
   <span class="subhead">tktk Microlesson 01</span>
 </h1>
 

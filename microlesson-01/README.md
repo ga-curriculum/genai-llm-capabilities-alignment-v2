@@ -1724,14 +1724,6 @@ LexiLaw, a legal tech startup, uses RAG to summarize lengthy contracts and case 
   2. What fine-tuning techniques can improve the system’s ability to handle domain-specific jargon and legal language?
   3. How can LexiLaw evaluate and address edge cases, such as ambiguous or contradictory clauses, in legal documents?
 
-
-
-
-
-
-
-
-
 ---
 
 #### **Real-World Example**  
@@ -1742,28 +1734,5 @@ LexiLaw, a legal tech startup, uses RAG to summarize lengthy contracts and case 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## **Learning Objectives**  
-1. Understand the stages involved in building LLM applications, including from scratch and using pretrained models.  
-2. Learn how to fine-tune pretrained LLMs for specific domains.  
-3. Explore multimodal LLMs and their applications.  
-4. Gain insights into RAG (Retrieval-Augmented Generation), its components, and practical use cases.  
-5. Evaluate the effectiveness of LLMs and RAG systems using standard metrics and real-world testing.  
-
----
 
 

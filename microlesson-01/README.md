@@ -198,9 +198,9 @@ Training an LLM involves processing massive datasets through complex models, req
 
 - **Training Steps**:  
   - **Data Loading**: Feed preprocessed data into the model in batches.  
-  2. **Forward Pass**: Compute model predictions and losses.  
-  3. **Backward Pass**: Update weights using optimization algorithms (e.g., AdamW).  
-  4. **Epoch Completion**: Repeat the process over multiple passes of the data.  
+  - **Forward Pass**: Compute model predictions and losses.  
+  - **Backward Pass**: Update weights using optimization algorithms (e.g., AdamW).  
+  - **Epoch Completion**: Repeat the process over multiple passes of the data.  
 
 - **Optimization Techniques**:  
   - **Gradient Clipping**: Prevent exploding gradients during training.  
@@ -231,9 +231,9 @@ Validation and fine-tuning are critical to ensuring an LLM performs accurately a
   - **Identify Issues**: Detect overfitting, underfitting, or areas needing improvement.  
 
 - **Fine-Tuning Process**:  
-  1. **Prepare Domain-Specific Data**: Collect high-quality datasets relevant to the task.  
-  2. **Use Pretrained Weights**: Start from a pretrained model (e.g., GPT, BERT).  
-  3. **Train on Target Data**: Use smaller learning rates to adapt the model without losing pretrained knowledge.  
+  - **Prepare Domain-Specific Data**: Collect high-quality datasets relevant to the task.  
+  - **Use Pretrained Weights**: Start from a pretrained model (e.g., GPT, BERT).  
+  - **Train on Target Data**: Use smaller learning rates to adapt the model without losing pretrained knowledge.  
   4. **Hyperparameter Optimization**: Fine-tune learning rates, batch sizes, and weight decay for the best results.  
 
 - **Benefits of Fine-Tuning**:  
@@ -373,9 +373,9 @@ Evaluating the performance of pretrained LLMs is critical to ensure they meet th
   - **User Feedback**: Direct user testing for applications like chatbots to gauge naturalness, relevance, and satisfaction.  
 
 - **Steps in Evaluation**:  
-  1. **Define Benchmarks**: Set clear success criteria based on application goals.  
-  2. **Test on Real Data**: Use real-world datasets and scenarios to test the model’s capabilities.  
-  3. **Iterate**: Identify weak areas and retrain or fine-tune the model to improve performance.  
+  - **Define Benchmarks**: Set clear success criteria based on application goals.  
+  - **Test on Real Data**: Use real-world datasets and scenarios to test the model’s capabilities.  
+  - **Iterate**: Identify weak areas and retrain or fine-tune the model to improve performance.  
 
 - **Real-World Validation**:  
   - Deploy the model in a live environment to measure its ability to handle production-level workloads.  
@@ -404,9 +404,9 @@ Evaluating pretrained LLMs is essential to ensure their effectiveness in meeting
     - Collect qualitative feedback on relevance, coherence, and usability in real-world scenarios.
 
 - **Evaluation Process**:  
-  1. **Define Success Metrics**: Align evaluation benchmarks with business or application goals.  
-  2. **Use Real-World Data**: Test on datasets similar to the application environment.  
-  3. **Iterative Refinement**: Leverage results to fine-tune or retrain the model for improved accuracy.
+  - **Define Success Metrics**: Align evaluation benchmarks with business or application goals.  
+  - **Use Real-World Data**: Test on datasets similar to the application environment.  
+  - **Iterative Refinement**: Leverage results to fine-tune or retrain the model for improved accuracy.
 
 - **Real-World Testing**:  
   - Deploy the model in production environments to assess live performance, latency, and scalability.  
@@ -511,14 +511,14 @@ Fine-tuning an LLM requires high-quality, domain-specific datasets that align cl
   - Ensures better alignment with industry-specific terminology, context, and tone.
 
 - **Steps to Collect Domain-Specific Data**:  
-  1. **Identify Reliable Sources**:  
+  - **Identify Reliable Sources**:  
      - Use industry-specific resources like research papers, manuals, customer interactions, or company reports.  
      - Example: Collecting medical journals for healthcare applications or legal documents for contract analysis.  
-  2. **Scraping Data**:  
+  - **Scraping Data**:  
      - Employ tools like Scrapy for web scraping structured and unstructured data.  
-  3. **Curating Open Datasets**:  
+  - **Curating Open Datasets**:  
      - Leverage publicly available datasets like PubMed for biomedical text or arXiv for academic research.  
-  4. **Data Annotation**:  
+  - **Data Annotation**:  
      - For tasks like classification or sentiment analysis, manually label the data or use semi-supervised methods.  
 
 - **Preprocessing the Dataset**:  
@@ -551,17 +551,17 @@ Fine-tuning involves adapting a pretrained model to a specific domain or task by
   - Efficient techniques reduce computational cost and time compared to full retraining.
 
 - **Key Fine-Tuning Techniques**:  
-  1. **Low-Rank Adaptation (LoRA)**:  
+  - **Low-Rank Adaptation (LoRA)**:  
      - Adds lightweight trainable parameters to existing layers without altering the base model.  
      - Reduces memory usage and computational demands.  
      - Example: Adapting GPT-3 to a legal dataset with minimal overhead.  
-  2. **Adapters**:  
+  - **Adapters**:  
      - Introduce small, trainable modules into the network while keeping the main model frozen.  
      - Ideal for multitask learning and low-resource scenarios.  
-  3. **Prompt Engineering**:  
+  - **Prompt Engineering**:  
      - Crafting specific input prompts to elicit the desired output from a pretrained model without additional training.  
      - Example: Using GPT with detailed prompts to summarize financial reports.  
-  4. **Layer-Freezing**:  
+  - **Layer-Freezing**:  
      - Train only the top layers of the model while keeping the lower layers unchanged.  
      - Speeds up training and prevents catastrophic forgetting of pretrained knowledge.
 
@@ -590,14 +590,14 @@ Validation ensures that the fine-tuned model performs well in real-world applica
   - Ensures the model meets the desired quality and reliability standards.
 
 - **Steps for Validation**:  
-  1. **Dataset Splitting**:  
+  - **Dataset Splitting**:  
      - Divide the domain-specific dataset into training, validation, and test sets to ensure unbiased evaluation.  
-  2. **Performance Evaluation**:  
+  - **Performance Evaluation**:  
      - Use metrics like:  
        - **Accuracy**: For classification tasks.  
        - **BLEU/ROUGE**: For text generation and summarization quality.  
        - **Precision, Recall, F1 Score**: To balance true positives and false negatives.  
-  3. **Real-World Testing**:  
+  - **Real-World Testing**:  
      - Deploy the model in a controlled environment to test its behavior in real-world scenarios.  
      - Gather user feedback to understand any limitations in the model's outputs.
 
@@ -628,11 +628,11 @@ Multimodal LLMs expand the capabilities of traditional language models by integr
 - **Overview**:  
   - Multimodal datasets combine diverse data types, such as text-image pairs or text-audio pairs, to train models capable of understanding and generating across multiple modalities.  
 - **Key Steps**:  
-  1. **Data Collection**:  
+  - **Data Collection**:  
      - Use sources like image-caption datasets (e.g., MS COCO), text-audio datasets (e.g., LibriSpeech), and multimodal resources like YouTube videos with captions.  
-  2. **Data Alignment**:  
+  - **Data Alignment**:  
      - Ensure the alignment of modalities, such as linking images with corresponding captions or audio transcripts.  
-  3. **Preprocessing**:  
+  - **Preprocessing**:  
      - Tokenize text, extract visual features using models like CNNs, and convert audio to spectrograms or embeddings.  
 - **Challenges**:  
   - Ensuring high-quality alignment between modalities.  
@@ -689,14 +689,14 @@ The foundation of building multimodal LLMs lies in using high-quality datasets t
   - Enhance the model’s understanding of context by linking modalities, such as pairing an image with a descriptive caption.  
 
 - **Steps to Combine Datasets**:  
-  1. **Data Collection**:  
+  - **Data Collection**:  
      - Sources for multimodal data include:  
        - **Text-Image**: MS COCO, Flickr30k.  
        - **Text-Audio**: LibriSpeech, AudioCaps.  
        - **Text-Video**: YouTube videos with captions, HowTo100M.  
-  2. **Alignment**:  
+  - **Alignment**:  
      - Ensure data from different modalities correspond accurately (e.g., linking an image with its caption or audio with its transcript).  
-  3. **Preprocessing**:  
+  - **Preprocessing**:  
      - **Text**: Tokenization and normalization.  
      - **Image**: Feature extraction using convolutional neural networks (CNNs).  
      - **Audio**: Convert audio files into spectrograms or embeddings for processing.  
@@ -727,15 +727,15 @@ Transformers are highly versatile architectures, and adapting them for multimoda
   - Enhances the model’s ability to generate context-aware outputs, such as image captions or video summaries.
 
 - **Steps to Adapt Transformer Architectures**:  
-  1. **Specialized Encoders**:  
+  - **Specialized Encoders**:  
      - Use separate encoders for each modality:  
        - **Text**: Standard Transformer layers for tokenized text inputs.  
        - **Image**: Vision models like Vision Transformers (ViT) or CNNs for image embeddings.  
        - **Audio**: Spectrogram encoders to convert audio signals into embeddings.  
-  2. **Cross-Modal Attention Layers**:  
+  - **Cross-Modal Attention Layers**:  
      - Introduce layers that enable the model to learn relationships between modalities.  
      - Example: Text input influencing image feature generation in captioning tasks.  
-  3. **Unified Representations**:  
+  - **Unified Representations**:  
      - Combine embeddings from different modalities into a shared representation space for downstream tasks.  
 
 - **Examples of Multimodal Models**:  

@@ -234,7 +234,7 @@ Validation and fine-tuning are critical to ensuring an LLM performs accurately a
   - **Prepare Domain-Specific Data**: Collect high-quality datasets relevant to the task.  
   - **Use Pretrained Weights**: Start from a pretrained model (e.g., GPT, BERT).  
   - **Train on Target Data**: Use smaller learning rates to adapt the model without losing pretrained knowledge.  
-  4. **Hyperparameter Optimization**: Fine-tune learning rates, batch sizes, and weight decay for the best results.  
+- **Hyperparameter Optimization**: Fine-tune learning rates, batch sizes, and weight decay for the best results.  
 
 - **Benefits of Fine-Tuning**:  
   - Reduces training time and computational costs compared to training from scratch.  
@@ -765,16 +765,16 @@ Training multimodal LLMs involves designing learning objectives that enable the 
   - Enhances the model's ability to perform tasks requiring multimodal reasoning, such as text-to-image generation or video analysis.
 
 - **Key Multimodal Learning Objectives**:  
-  1. **Cross-Modal Alignment Loss**:  
+  - **Cross-Modal Alignment Loss**:  
      - Align representations of different modalities in a shared embedding space.  
      - Example: Text and image embeddings being aligned to identify matching pairs (e.g., in CLIP).  
-  2. **Reconstruction Loss**:  
+  - **Reconstruction Loss**:  
      - Train the model to reconstruct one modality from another.  
      - Example: Generate an image based on a given text prompt (e.g., DALL·E).  
-  3. **Contrastive Learning**:  
+  - **Contrastive Learning**:  
      - Maximize similarity between matching multimodal pairs and minimize similarity for non-matching pairs.  
      - Example: Align image captions with the corresponding image.  
-  4. **Supervised Loss**:  
+  - **Supervised Loss**:  
      - Train the model on labeled multimodal datasets for specific tasks like classification or translation.  
 
 - **Training Strategies**:  
@@ -810,13 +810,13 @@ Validation is essential to ensure that a multimodal LLM performs well across dif
   - Identifies weaknesses in cross-modal relationships and task-specific performance.
 
 - **Validation Techniques**:  
-  1. **Task-Specific Benchmarks**:  
+  - **Task-Specific Benchmarks**:  
      - Use established datasets and evaluation metrics:  
        - **Text-to-Image**: Evaluate outputs using metrics like FID (Fréchet Inception Distance) and human judgment for quality.  
        - **Video Analysis**: Test on benchmarks like AVA (Atomic Visual Actions) or ActivityNet for action recognition and description.  
-  2. **Cross-Modal Consistency**:  
+  - **Cross-Modal Consistency**:  
      - Assess how well the model aligns information across modalities (e.g., ensuring generated text matches the input image).  
-  3. **Human Feedback**:  
+  - **Human Feedback**:  
      - Collect qualitative evaluations for subjective tasks like image captioning or video summarization.  
 
 - **Steps for Real-World Testing**:  

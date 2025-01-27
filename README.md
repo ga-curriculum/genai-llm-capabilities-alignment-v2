@@ -13,7 +13,7 @@ tktk Write a short but descriptive summary of the content in this module.
 | ------ |:------------------:| ------ |
 | [Setup](./setup/README.md)                          | -- | Set up the development environment. |
 | [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
+| [Gen AI-LLM-Capabilities-Alignment](./microlesson-01/README.md) | -- | tktk Skills to cover                |
 | [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
 | **Total content**                                   | -- |                                     |
 

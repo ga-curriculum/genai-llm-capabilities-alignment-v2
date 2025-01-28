@@ -853,9 +853,9 @@ Retrieval-Augmented Generation (RAG) is a framework that combines the strengths 
   - Unlike traditional LLMs, which rely solely on static training data, RAG systems update dynamically by accessing real-time or external information.  
 
 - **How RAG Works**:  
-  1. **Input Query**: A user query is processed by the retrieval module.  
-  2. **Document Retrieval**: Relevant documents or embeddings are fetched from external databases (e.g., vector databases like Pinecone, FAISS).  
-  3. **Response Generation**: The generative model uses the retrieved data to create accurate, context-aware responses.  
+  - **Input Query**: A user query is processed by the retrieval module.  
+  - **Document Retrieval**: Relevant documents or embeddings are fetched from external databases (e.g., vector databases like Pinecone, FAISS).  
+  - **Response Generation**: The generative model uses the retrieved data to create accurate, context-aware responses.  
 
 - **Why RAG Matters**:  
   - Reduces dependency on model parameters for storing knowledge, making the system more scalable and adaptable.  
@@ -1657,63 +1657,8 @@ Real-world testing ensures that a Retrieval-Augmented Generation (RAG) system pe
  
 ### **Scenario-Based Discussions**
 
-#### **Scenario 1: EzyRetail - RAG for E-Commerce Product Recommendations**
-EzyRetail, an e-commerce giant, implements a RAG system to improve its product recommendation engine. The system retrieves relevant product descriptions, reviews, and inventory data and generates personalized suggestions for users in real time. However, the team notices that the recommendations occasionally include out-of-stock items or irrelevant products.
-
-- **Discussion Questions**:
-  1. How can EzyRetail optimize its retrieval module to exclude out-of-stock products while maintaining accuracy?
-  2. What techniques can improve the personalization of recommendations for diverse user profiles?
-  3. How can the system handle noisy user input, such as vague or misspelled queries?
+#### ShopSmart - RAG for E-Commerce Product Recommendations**
+ShopSmart, an e-commerce giant, implements a RAG system to improve its product recommendation engine. The system retrieves relevant product descriptions, reviews, and inventory data and generates personalized suggestions for users in real time. 
 
 ---
-
-#### **Scenario 2: MedConnect - RAG for Healthcare Knowledge Summaries**
-MedConnect, a healthcare AI startup, deploys a RAG system to provide doctors with concise summaries of clinical trials. While the system retrieves relevant studies, it struggles to handle contradictory findings across different trials, leading to confusion among doctors.
-
-- **Discussion Questions**:
-  1. What strategies can MedConnect use to prioritize and validate the quality of retrieved information?
-  2. How can the generative module ensure clarity and neutrality when summarizing conflicting results?
-  3. What steps should be taken to improve trust and reliability in healthcare-focused RAG systems?
-
----
-
-#### **Scenario 3: FinAdvise - RAG for Financial Analysis**
-FinAdvise, a financial consultancy firm, uses a RAG system to analyze market trends and provide investment advice to clients. While the system retrieves accurate market data, it occasionally generates overly generic insights that lack actionable recommendations.
-
-- **Discussion Questions**:
-  1. How can FinAdvise fine-tune the generative module to produce more detailed and actionable financial insights?
-  2. What role can domain-specific data play in enhancing the system’s performance for financial applications?
-  3. How can the system address the challenge of processing real-time market data with minimal latency?
-
----
-
-#### **Scenario 4: EduSmart - RAG for Personalized Learning**
-EduSmart, an edtech company, integrates RAG to create personalized study plans for students. The system retrieves content from textbooks, online resources, and previous assignments. However, the system struggles with aligning study plans to individual learning paces and preferences.
-
-- **Discussion Questions**:
-  1. How can EduSmart improve its RAG system to adapt study plans based on a student’s learning pace and progress?
-  2. What methods can be employed to filter and retrieve high-quality educational content?
-  3. How can user feedback be incorporated into refining the system’s recommendations?
-
----
-
-#### **Scenario 5: LexiLaw - RAG for Legal Document Summarization**
-LexiLaw, a legal tech startup, uses RAG to summarize lengthy contracts and case law for attorneys. The system retrieves relevant sections efficiently but struggles with generating concise and legally precise summaries for complex clauses.
-
-  - **Discussion Questions**:
-  - **How can LexiLaw ensure the accuracy and legal compliance of its RAG-generated summaries?**
-  - **What fine-tuning techniques can improve the system’s ability to handle domain-specific jargon and legal language?**
-  - **How can LexiLaw evaluate and address edge cases, such as ambiguous or contradictory clauses, in legal documents?**
-
----
-
-#### **Real-World Example**  
-- An enterprise knowledge assistant retrieves internal policy documents from a vector database and generates context-aware answers for employees.
-
-#### **Discussion**  
-- How can vector databases be optimized for faster and more accurate retrieval?  
-
-
-
-
 

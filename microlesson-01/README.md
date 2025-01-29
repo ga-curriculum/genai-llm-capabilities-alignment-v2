@@ -138,9 +138,9 @@ Building an LLM from scratch is the most resource-intensive but highly customiza
   - 🎯 Use smaller, task-specific datasets to enhance performance in targeted applications.  
 
 
-## 🚀 Mastering the LLM Pipeline: From Blueprint to Breakthrough  
+### 🚀5. Mastering the LLM Pipeline: From Blueprint to Breakthrough  
 
-### 📊 Key Stages of Building a Large Language Model  
+#### 📊 Key Stages of Building a Large Language Model  
 
 | **Stage** | **Description** | **Key Components** | **Challenges** | **Example** |
 |-----------|----------------|--------------------|---------------|-------------|

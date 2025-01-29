@@ -80,16 +80,16 @@ By the end of this lesson you will be able to:
 
 Large Language Models (LLMs) have become the backbone of numerous AI applications, but developing them requires an understanding of different methods and their associated stages. Below are the primary approaches to building LLM applications:
 
-### **1. Building LLMs from Scratch**
+### **A. Building LLMs from Scratch**
    - Involves designing a custom architecture, collecting extensive datasets, and training a model from the ground up.  
 
-### **2. Using Pretrained Models**
+### **B. Using Pretrained Models**
    - Leverages existing pretrained models like GPT, PaLM, or LLaMA, available via APIs or open-source platforms.  
 
-### **3. Fine-Tuning Pretrained Models**
+### **C. Fine-Tuning Pretrained Models**
    - Adapts a pretrained model to specific use cases or domains using smaller, domain-specific datasets.
      
-### **4. Building Multimodal LLMs**
+### **D. Building Multimodal LLMs**
    - Develops models capable of processing and generating multiple data types, such as text, images, and audio.  
 
  ---

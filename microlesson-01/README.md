@@ -133,30 +133,6 @@ Building an LLM from scratch is the most resource-intensive but highly customiza
 
 ---
 
-#### **1. Defining Architecture (e.g., Transformer)**
-
-The architecture of a Large Language Model (LLM) is its foundational blueprint, determining its ability to learn and process language efficiently.
-
-- **Why It Matters**:  
-  - The architecture defines the model's performance, scalability, and adaptability to various NLP tasks.  
-  - Transformers, introduced in the "Attention is All You Need" paper, have become the gold standard for LLMs.  
-
-- **Key Components**:  
-  - **Encoder-Decoder Structure**: Handles input and output for tasks like translation.  
-  - **Self-Attention Mechanism**: Allows the model to focus on relevant parts of the input sequence.  
-  - **Positional Encoding**: Adds sequential information to tokens, helping the model understand order.  
-
-- **Design Considerations**:  
-  - Number of layers (e.g., depth of the model).  
-  - Number of attention heads for better focus on context.  
-  - Size of the feedforward network for capturing complex relationships.  
-
-- **Examples**:  
-  - GPT (Generative Pretrained Transformer): Focuses on unidirectional text generation.  
-  - BERT (Bidirectional Encoder Representations from Transformers): Excels in understanding text context in both directions.  
-
----
-
 #### **2. Collecting and Preprocessing Large Datasets**
 
 High-quality datasets are the backbone of any successful LLM. Collecting and preprocessing data ensures the model has a diverse and reliable foundation for training.

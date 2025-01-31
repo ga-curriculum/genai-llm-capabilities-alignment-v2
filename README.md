@@ -1,5 +1,5 @@
 <h1>
-  <span class="prefix">GenAI-LLM-Capabilities-Alignment</span>
+  <span class="prefix">GenAI LLM Capabilities Alignment</span>
   <span class="headline"></span>
 </h1>
 

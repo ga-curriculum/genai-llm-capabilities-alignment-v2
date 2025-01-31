@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Quick Refresher for ML</span>
+  <span class="headline">Gen AI: LLM Capabilities and Alignment</span>
   <span class="subhead">Setup</span>
 </h1>
 

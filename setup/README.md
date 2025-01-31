@@ -1,29 +1,38 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Quick Refresher for ML</span>
   <span class="subhead">Setup</span>
 </h1>
 
 ## Setup
 
-tktk The below is a generic starting point for lecture setup. You may need to make adjustments to this.
+1. **Create a Directory**
+   - On your machine, create a directory or folder named `genai-llm-capabilities-alignment` where you can save all the data and the jupyter notebooks concerned with this module.
+2. **Open Anaconda Navigator or Command Prompt**  
+   - If using **Anaconda Navigator**, launch **Jupyter Notebook** from the interface.  
+   - If using **Command Prompt**, type:  
+     ```sh
+     jupyter notebook
+     ```  
+   This will open Jupyter Notebook in your default web browser.  
 
-Open your Terminal application and navigate to your <code class="filepath">~/code/ga/lectures</code> directory:
+3. **Navigate to the Module Directory**  
+   - In the Jupyter Notebook interface, browse to the folder created in step 1. This is where you want to create your notebook.  
 
-```bash
-cd ~/code/ga/lectures
-```
+4. **Create a New Jupyter Notebook**  
+   - Click **New** (top-right corner) → **Python 3** to create a new notebook.  
+   - Rename the notebook by clicking on the **default name ("Untitled")** and entering the name as:  
+     ```
+     <GENAI_LLM_CAPABILITIES_ALIGNMENT>.ipynb
+     ```
+   
+5. **Write and Execute Python Code**  
+   - You can copy the demo python code given in the lessons or tryout your own code too.
+   - Click inside a code cell and paste the demo code or type your Python code.  
+   - Press **Shift + Enter** to run the code in the cell.  
 
-Make a new directory called <code class="filepath">tktk-module-name</code>, then enter this directory:
+6. **Save and Close the Notebook**  
+   - Click **File → Save and Checkpoint** to save progress.  
+   - To close, select **File → Close and Halt**, then close the browser tab.  
 
-```bash
-mkdir tktk-module-name
-cd tktk-module-name
-```
-
-Open the contents of the directory in VS Code:
-
-```bash
-code .
-```
-
-tktk Are there more lecture setup steps? Don't forget to add them here.
+7. **Shut Down Jupyter Notebook**  
+   - In the terminal where Jupyter Notebook is running, press **Ctrl + C** and type `Y` when prompted.

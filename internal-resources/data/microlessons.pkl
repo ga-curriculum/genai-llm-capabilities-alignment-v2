@@ -9,23 +9,16 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+theStagesOfBuildingLlmApps = new Template.Microlesson {
+  friendlyName = "The Stages of Building LLM Apps"
+  dirName = "the-stages-of-building-llm-apps"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
-  type = "Content"
-  videoUrl = ""
-}
-
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+introductionToRag = new Template.Microlesson {
+  friendlyName = "Introduction to RAG"
+  dirName = "introduction-to-rag"
   type = "Content"
   videoUrl = ""
 }

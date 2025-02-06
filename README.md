@@ -1,13 +1,12 @@
 <h1>
-  <span class="prefix">GenAI LLM Capabilities Alignment</span>
-  <span class="headline"></span>
+  <span class="prefix"></span>
+  <span class="headline">GenAI: LLM Capabilities and Alignment</span>
 </h1>
 
 ## About
-
 This Session covers building LLMs, exploring pretraining, fine-tuning, and RAG (Retrieval-Augmented Generation) techniques to enhance performance, scalability, and application-specific adaptability in AI systems.
 
-By the end of this lesson you will be able to:
+By the end of this session you will be able to:
 
 - **Analyze** the process of designing and building large language models (LLMs) from scratch by evaluating key components, architectures, and methodologies.
 - **Apply** data collection, cleaning, and preprocessing techniques to prepare large datasets for training LLMs.
@@ -17,10 +16,35 @@ By the end of this lesson you will be able to:
 - **Optimize** costs, scalability, and efficiency when developing RAG-based applications by leveraging best practices and strategic resource allocation.
 
 ## Content
-
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
 | [Setup](./setup/README.md)                          | 2 min | Set up the development environment. |
-| [The Stages of Building LLM Apps](./microlesson-01/README.md) | 45 min | building, fine-tuning, and deploying LLMs, including pretrained models, multimodal capabilities, and optimization challenges.|
-| [Introduction to RAG (Retrieval-Augmented Generation)](./microlesson-02/README.md) | 45 min | Retrieval-Augmented Generation (RAG), its workflow, components, applications, and evaluation for enhancing AI knowledge retrieval|
-| **Total content**| ~90min |                                     |
+| [The Stages of Building LLM Apps](./the-stages-of-building-llm-apps/README.md) | 45 min | Explain the steps involved in building, fine-tuning, and deploying LLMs, including pretrained models, multimodal capabilities, and optimization challenges|
+| [Introduction to RAG](./introduction-to-rag/README.md) | 45 min | Explain Retrieval-Augmented Generation (RAG), its workflow, components, applications, and evaluation for enhancing AI knowledge retrieval.|
+| **Total content**| 1 hr 32 min |                                     |
+
+## References
+
+📖 [Reference Materials](./references/README.md)
+
+## Internal
+
+### Prerequisites
+- Intro to neural network + Overview of AI Architectures
+
+
+### Course landing pages
+
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/genai-llm-capabilities-alignment/canvas-landing-pages/fallback.html)
+
+### Resources
+
+✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
+
+🎥 [Video Hub](./internal-resources/video-hub.md)
+
+🏗️ [Release Notes](./internal-resources/release-notes.md)
+
+---
+
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**

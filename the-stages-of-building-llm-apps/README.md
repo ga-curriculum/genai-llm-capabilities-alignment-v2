@@ -87,20 +87,22 @@ Pretrained LLMs provide **a practical and cost-effective way to build AI applica
 
 ###  Defining Application Goals
 
-| 🏆 **Application** | 🔍 **Goal** | 🌍 **Example Use Case** |
-|------------------|------------|----------------------|
-| 💬 **Chatbots** | Generate **human-like responses** | Virtual Assistants (e.g., Alexa) |
-| ✍️ **Content Generation** | Automate **blog writing, marketing copy** | AI-driven storytelling tools |
-| 📄 **Document Summarization** | Extract **key insights** from large texts | Legal contract summarization |
-| 📊 **Sentiment Analysis** | Detect **positive/negative tone** in text | Brand reputation monitoring |
+| 🏆 **Application**        | 🔍 **Goal**                                   | 🌍 **Example Use Case**                  |
+|--------------------------|--------------------------------------------|------------------------------------------|
+| 💬 **Chatbots**          | Generate **human-like responses**          | Virtual Assistants (e.g., Alexa)        |
+| ✍️ **Content Generation** | Automate **blog writing, marketing copy** | AI-driven storytelling tools            |
+| 📄 **Document Summarization** | Extract **key insights** from large texts | Legal contract summarization            |
+| 📊 **Sentiment Analysis** | Detect **positive/negative tone** in text  | Brand reputation monitoring             |
+
 
 
 ### Integrating Pretrained LLMs via APIs or Libraries
 
-| **Integration Method** | **Advantages** | **Challenges** | **Use Case** |
-|-------------------------|-----------------|----------------|---------------|
-| **API-Based** (OpenAI, Cohere) | ✅ **Easy setup & scalability** <br> ✅ **No infra required** | ⚠️ **Cost accumulates** <br> ⚠️ **Privacy concerns** | 🤖 **Customer support chatbots** |
+| **Integration Method**          | **Advantages**                          | **Challenges**                         | **Use Case**                              |
+|--------------------------------|--------------------------------------|-------------------------------------|--------------------------------------|
+| **API-Based** (OpenAI, Cohere)  | ✅ **Easy setup & scalability** <br> ✅ **No infra required** | ⚠️ **Cost accumulates** <br> ⚠️ **Privacy concerns** | 🤖 **Customer support chatbots** |
 | **Library-Based** (Hugging Face, TensorFlow) | ✅ **Customizable** <br> ✅ **Runs locally** | ⚠️ **Requires GPUs** <br> ⚠️ **More setup required** | 🏗️ **Fine-tuned legal document classifiers** |
+
 
 
 ## Fine-Tuning Pretrained LLMs 
@@ -108,12 +110,13 @@ Fine-tuning adapts **pretrained models** to **domain-specific needs**, optimizin
 
 ### Key Steps in Fine-Tuning 
 
-| **Step** | **Description** | **Example** |
-|------------|-----------------|------------|
-| **Choosing a Base Model** | Select an LLM with suitable size & task compatibility. | 🏥 **BioBERT for medical texts** |
-| **Collecting Domain Data** | Gather industry-specific datasets for fine-tuning. | 💼 **Customer service chat logs** |
-| **Applying Fine-Tuning Techniques** | Train model on **smaller, task-specific datasets**. | 📜 **Legal contract summarization** |
-| **Evaluating Performance** | Validate using BLEU, ROUGE, F1 Score, or human feedback. | 🏆 **AI-generated financial reports** |
+| **Step**                        | **Description**                                      | **Example**                               |
+|--------------------------------|--------------------------------------------------|-------------------------------------------|
+| **Choosing a Base Model**       | Select an LLM with suitable size & task compatibility. | 🏥 **BioBERT for medical texts**          |
+| **Collecting Domain Data**      | Gather industry-specific datasets for fine-tuning.   | 💼 **Customer service chat logs**         |
+| **Applying Fine-Tuning Techniques** | Train model on **smaller, task-specific datasets**.  | 📜 **Legal contract summarization**       |
+| **Evaluating Performance**      | Validate using BLEU, ROUGE, F1 Score, or human feedback. | 🏆 **AI-generated financial reports** |
+
 
 ## Demonstration of LLM Application Build Stages
 

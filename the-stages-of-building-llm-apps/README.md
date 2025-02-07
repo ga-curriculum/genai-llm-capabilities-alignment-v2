@@ -242,7 +242,7 @@ trainer = Trainer(model=model, args=training_args, train_dataset=dataset)
 print("Fine-tuning setup completed. Run trainer.train() to start training.")
 ```
 
-#### Step 8: Evaluating Model Performance Using BLEU Score
+#### Step 9: Evaluating Model Performance Using BLEU Score
 ```python
 from nltk.translate.bleu_score import sentence_bleu
 
@@ -276,7 +276,7 @@ Multimodal LLMs **expand beyond text**, integrating **images, audio, and videos*
 ✅ **Multimodal models enable richer AI capabilities**.  
 
 
-## 🗣️ **G. Discussion Activity**  
+## 🗣️ **Discussion Activity**  
 1. What are the trade-offs between **using APIs vs. open-source LLMs**?  
 2. How can fine-tuning be optimized for **low-resource domains**?  
 3. What are the biggest challenges in **scaling multimodal LLMs**?  

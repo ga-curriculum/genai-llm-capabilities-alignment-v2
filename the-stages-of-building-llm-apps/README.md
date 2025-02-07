@@ -86,6 +86,7 @@ Pretrained LLMs provide **a practical and cost-effective way to build AI applica
 
 
 ###  Defining Application Goals
+
 | 🏆 **Application** | 🔍 **Goal** | 🌍 **Example Use Case** |
 |------------------|------------|----------------------|
 | 💬 **Chatbots** | Generate **human-like responses** | Virtual Assistants (e.g., Alexa) |
@@ -95,6 +96,7 @@ Pretrained LLMs provide **a practical and cost-effective way to build AI applica
 
 
 ### Integrating Pretrained LLMs via APIs or Libraries
+
 | **Integration Method** | **Advantages** | **Challenges** | **Use Case** |
 |-------------------------|-----------------|----------------|---------------|
 | **API-Based** (OpenAI, Cohere) | ✅ **Easy setup & scalability** <br> ✅ **No infra required** | ⚠️ **Cost accumulates** <br> ⚠️ **Privacy concerns** | 🤖 **Customer support chatbots** |
@@ -105,6 +107,7 @@ Pretrained LLMs provide **a practical and cost-effective way to build AI applica
 Fine-tuning adapts **pretrained models** to **domain-specific needs**, optimizing **accuracy & efficiency**.  
 
 ### Key Steps in Fine-Tuning 
+
 | **Step** | **Description** | **Example** |
 |------------|-----------------|------------|
 | **Choosing a Base Model** | Select an LLM with suitable size & task compatibility. | 🏥 **BioBERT for medical texts** |

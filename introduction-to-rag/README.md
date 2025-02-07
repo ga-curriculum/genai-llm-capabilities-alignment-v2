@@ -33,12 +33,14 @@ Retrieval-Augmented Generation (RAG) is a framework that combines information re
 
 
 ## How RAG Differs from Traditional LLMs
-| **Aspect** | **Traditional LLMs** | **RAG** |
-|-----------|----------------------|---------|
-| 📚 **Knowledge Source** | Static training data | Dynamically retrieves external knowledge |
-| 📈 **Scalability** | Limited by model size | Scalable due to external knowledge access |
-| 🔄 **Updates** | Requires retraining to update knowledge | Retrieves real-time information dynamically |
-| ⚠️ **Bias Mitigation** | Susceptible to biases in training data | Allows retrieval of more diverse perspectives |
+
+| Aspect             | Traditional LLMs                             | RAG                                          |
+|--------------------|--------------------------------------------|----------------------------------------------|
+| 📚 **Knowledge Source**  | Static training data                      | Dynamically retrieves external knowledge    |
+| 📈 **Scalability**       | Limited by model size                    | Scalable due to external knowledge access  |
+| 🔄 **Updates**           | Requires retraining to update knowledge  | Retrieves real-time information dynamically |
+| ⚠️ **Bias Mitigation**   | Susceptible to biases in training data   | Allows retrieval of more diverse perspectives |
+
 
 
 ## Step-by-Step Workflow of RAG
@@ -156,13 +158,14 @@ print("Cosine Similarity Score:", similarity_score[0][0])
 ```
 
 ## Applications of RAG
-| **Application** | **How RAG Helps** | **Example Use Case** |
-|---------------|-------------------|--------------------|
-| 💬 **Chatbots & Virtual Assistants** | Retrieves real-time information for **customer support**. | Virtual assistants answering FAQs using company databases. |
-| 📄 **Document Summarization** | Extracts key points from lengthy documents. | Legal firms summarizing case law. |
-| ⚖️ **Domain-Specific Retrieval** | Accesses **industry-specific knowledge**. | Healthcare AI retrieving the latest medical research. |
-| 🏢 **Enterprise Knowledge Management** | Retrieves and organizes **company data**. | HR chatbots fetching policy documents. |
-| 🌍 **Multilingual Support** | Generates responses in **multiple languages**. | E-commerce support in various languages. |
+| Application                      | How RAG Helps                                   | Example Use Case                                      |
+|----------------------------------|-----------------------------------------------|------------------------------------------------------|
+| 💬 **Chatbots & Virtual Assistants**  | Retrieves real-time information for customer support. | Virtual assistants answering FAQs using company databases. |
+| 📄 **Document Summarization**       | Extracts key points from lengthy documents.  | Legal firms summarizing case law.                     |
+| ⚖️ **Domain-Specific Retrieval**    | Accesses industry-specific knowledge.         | Healthcare AI retrieving the latest medical research. |
+| 🏢 **Enterprise Knowledge Management** | Retrieves and organizes company data.         | HR chatbots fetching policy documents.                |
+| 🌍 **Multilingual Support**          | Generates responses in multiple languages.    | E-commerce support in various languages.             |
+
 
 ## Role of Vector Databases in RAG
 ### **1. Embedding Storage and Similarity-Based Retrieval**
@@ -175,18 +178,19 @@ print("Cosine Similarity Score:", similarity_score[0][0])
 
 ## Evaluating RAG Systems
 ### **1. Metrics for Retrieval Effectiveness**
-| **Metric** | **Description** | **Use Case** |
-|-----------|---------------|--------------|
-| 🎯 **Precision** | Measures how many retrieved documents are relevant. | Legal research retrieval. |
-| 🔄 **Recall** | Measures how many relevant documents were retrieved. | Healthcare AI ensuring critical research isn't missed. |
-| 📊 **Embedding Similarity** | Measures semantic similarity between query and retrieved data. | Customer support retrieving FAQ answers. |
+| Metric               | Description                                       | Use Case                                      |
+|----------------------|--------------------------------------------------|----------------------------------------------|
+| 🎯 **Precision**       | Measures how many retrieved documents are relevant. | Legal research retrieval.                    |
+| 🔄 **Recall**         | Measures how many relevant documents were retrieved. | Healthcare AI ensuring critical research isn’t missed. |
+| 📊 **Embedding Similarity** | Measures semantic similarity between query and retrieved data. | Customer support retrieving FAQ answers.     |
 
 ### **2. Assessing Generative Quality**
-| **Metric** | **Description** | **Use Case** |
-|-----------|---------------|--------------|
-| 🔵 **BLEU** | Measures similarity of generated text to reference text. | Machine translation. |
-| 🔴 **ROUGE** | Evaluates recall of key phrases in summaries. | Document summarization. |
-| 📉 **Perplexity** | Measures fluency and coherence of generated text. | Chatbot interactions. |
+| Metric          | Description                                      | Use Case                     |
+|----------------|------------------------------------------------|------------------------------|
+| 🔵 **BLEU**    | Measures similarity of generated text to reference text. | Machine translation.        |
+| 🔴 **ROUGE**   | Evaluates recall of key phrases in summaries.   | Document summarization.     |
+| 📉 **Perplexity** | Measures fluency and coherence of generated text. | Chatbot interactions.       |
+
 
 
 

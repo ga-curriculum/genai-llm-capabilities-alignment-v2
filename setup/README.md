@@ -7,8 +7,7 @@
 
 1. **Create a Directory**
    - On your machine, create a directory or folder named `genai-llm-capabilities-alignment` where you can save all the data and the jupyter notebooks concerned with this module.
-2. **Open Anaconda Navigator or Command Prompt**  
-   - If using **Anaconda Navigator**, launch **Jupyter Notebook** from the interface.  
+2. **Open Command Prompt**  
    - If using **Command Prompt**, type:  
      ```sh
      jupyter notebook

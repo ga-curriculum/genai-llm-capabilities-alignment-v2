@@ -158,6 +158,7 @@ print("Cosine Similarity Score:", similarity_score[0][0])
 ```
 
 ## Applications of RAG
+
 | Application                      | How RAG Helps                                   | Example Use Case                                      |
 |----------------------------------|-----------------------------------------------|------------------------------------------------------|
 | 💬 **Chatbots & Virtual Assistants**  | Retrieves real-time information for customer support. | Virtual assistants answering FAQs using company databases. |
@@ -177,7 +178,9 @@ print("Cosine Similarity Score:", similarity_score[0][0])
 
 
 ## Evaluating RAG Systems
+
 ### **1. Metrics for Retrieval Effectiveness**
+
 | Metric               | Description                                       | Use Case                                      |
 |----------------------|--------------------------------------------------|----------------------------------------------|
 | 🎯 **Precision**       | Measures how many retrieved documents are relevant. | Legal research retrieval.                    |
@@ -185,6 +188,7 @@ print("Cosine Similarity Score:", similarity_score[0][0])
 | 📊 **Embedding Similarity** | Measures semantic similarity between query and retrieved data. | Customer support retrieving FAQ answers.     |
 
 ### **2. Assessing Generative Quality**
+
 | Metric          | Description                                      | Use Case                     |
 |----------------|------------------------------------------------|------------------------------|
 | 🔵 **BLEU**    | Measures similarity of generated text to reference text. | Machine translation.        |

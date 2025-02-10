@@ -11,7 +11,7 @@ By the end of this session you will be able to:
 - **Analyze** the process of designing and building large language models (LLMs) from scratch by evaluating key components, architectures, and methodologies.
 - **Apply** data collection, cleaning, and preprocessing techniques to prepare large datasets for training LLMs.
 - **Evaluate** the different stages involved in building LLM applications, identifying critical decision points and best practices.
-- **Assess** techniques for validating Retrieval-Augmented Generation (RAG) systems to ensure accurate and reliable knowledge retrieval.
+- **Assess** techniques for validating RAG systems to ensure accurate and reliable knowledge retrieval.
 - **Compare** the advantages and challenges of using vector databases in RAG systems to optimize retrieval efficiency.
 - **Optimize** costs, scalability, and efficiency when developing RAG-based applications by leveraging best practices and strategic resource allocation.
 

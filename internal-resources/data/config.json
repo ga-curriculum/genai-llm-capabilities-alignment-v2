@@ -4,7 +4,7 @@
     "name": "modular-curriculum-all-courses"
   },
   "repo": {
-    "friendlyName": "GenAI: LLM Capabilities and Alignment",
+    "friendlyName": "GenAI LLM Capabilities & Alignment",
     "name": "genai-llm-capabilities-alignment",
     "type": "Lesson",
     "about": "",
@@ -22,22 +22,22 @@
         {
           "friendlyName": "Setup",
           "dirName": "setup",
-          "type": "Content",
+          "type": "Setup",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 2
         },
         {
-          "friendlyName": "The Stages of Building LLM Apps",
+          "friendlyName": "The Stages of Building LLMs",
           "dirName": "the-stages-of-building-llm-apps",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 45
         },
         {
           "friendlyName": "Introduction to RAG",
@@ -47,7 +47,7 @@
           "learningObjective": "",
           "videoUrl": "",
           "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
+          "estimatedDeliveryTimeInMinutes": 45
         }
       ],
       "isHeaderShown": true,

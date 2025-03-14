@@ -1,29 +1,27 @@
-<!-- ! Do not delete or rename this file! -->
 <h1>
   <span class="prefix"></span>
   <span class="headline">GenAI: LLM Capabilities and Alignment</span>
 </h1>
 
 ## About
-This Session covers building LLMs, exploring pretraining, fine-tuning, and RAG (Retrieval-Augmented Generation) techniques to enhance performance, scalability, and application-specific adaptability in AI systems.
+This module explores the key stages of building and optimizing large language models (LLMs). You will gain hands-on experience with fine-tuning, optimizing training efficiency, and exploring alternatives such as retrieval-augmented generation (RAG). By the end of this module, you’ll understand when fine-tuning is necessary, how to optimize LLM performance, and how retrieval-based approaches can complement or replace traditional fine-tuning.
 
-By the end of this session you will be able to:
+### **Learning Objectives**
+By the end of this module, you will be able to:
 
-- **Analyze** the process of designing and building large language models (LLMs) from scratch by evaluating key components, architectures, and methodologies.
-- **Apply** data collection, cleaning, and preprocessing techniques to prepare large datasets for training LLMs.
-- **Evaluate** the different stages involved in building LLM applications, identifying critical decision points and best practices.
-- **Assess** techniques for validating Retrieval-Augmented Generation (RAG) systems to ensure accurate and reliable knowledge retrieval.
-- **Compare** the advantages and challenges of using vector databases in RAG systems to optimize retrieval efficiency.
-- **Optimize** costs, scalability, and efficiency when developing RAG-based applications by leveraging best practices and strategic resource allocation.
+- **Explain** the role of LLMs in the broader machine learning landscape.
+- **Analyze** when fine-tuning an LLM is necessary and when alternative approaches are better suited.
+- **Optimize** training performance by identifying and fixing inefficiencies in LLM workflows.
+- **Evaluate** the use of multimodal LLMs and compare their effectiveness to fine-tuned models.
+- **Implement** retrieval-augmented generation (RAG) to enhance AI-generated responses with relevant external knowledge.
+- **Assess** the advantages and limitations of vector databases in RAG-based architectures.
 
-## Content
+## **Content Overview**
+
 | Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](../setup/README.md)                          | 2 min | Set up the development environment. |
-| [The Stages of Building LLM Apps](../the-stages-of-building-llm-apps/README.md) | 45 min | Explain the steps involved in building, fine-tuning, and deploying LLMs, including pretrained models, multimodal capabilities, and optimization challenges|
-| [Introduction to RAG](../introduction-to-rag/README.md) | 45 min | Explain Retrieval-Augmented Generation (RAG), its workflow, components, applications, and evaluation for enhancing AI knowledge retrieval.|
-| **Total content**| 1 hr 32 min |                                     |
+|--------|------------------|--------|
+| [**Setup**](../setup/README.md) | 2 min | Setup the development environment. |
+| [**The Stages of Building LLMs**](../the-stages-of-building-llm-apps/README.md) | 45 min | Fine-tuning, optimization, and when to apply fine-tuning vs. prompt engineering vs. retrieval. |
+| [**Introduction to RAG**](../introduction-to-rag/README.md) | 45 min | Exploring Retrieval-Augmented Generation, its workflow, components, and evaluation for AI applications. |
+| **Total Content** | **90 min** |  |
 
-## References
-
-📖 [Reference Materials](../references/README.md)

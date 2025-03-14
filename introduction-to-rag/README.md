@@ -34,7 +34,7 @@ RAG has **two main steps**:
 - The model **generates a response** based on both the user’s query and retrieved documents.
 
 <div class="mermaid">
-graph LR
+graph TD
     A[User Query] -->|Convert| B[Query Embedding]
     B -->|Search| C[(Vector Database)]
     C -->|Retrieve| D[Top-K Documents]

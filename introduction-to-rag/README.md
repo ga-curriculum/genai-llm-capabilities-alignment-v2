@@ -41,13 +41,6 @@ graph LR
     
     D -.->|Provide Context| E[LLM Model]
     E -->|Generate| F[AI Response]
-    
-    style A fill:#ffcc00,stroke:#333,stroke-width:2px;
-    style B fill:#ffdd99,stroke:#333,stroke-width:2px;
-    style C fill:#66ccff,stroke:#333,stroke-width:2px;
-    style D fill:#99ff99,stroke:#333,stroke-width:2px;
-    style E fill:#ff9966,stroke:#333,stroke-width:2px;
-    style F fill:#ff6699,stroke:#333,stroke-width:2px;
 </div>
 
 ## **Hands-On: Build a Simple RAG System**

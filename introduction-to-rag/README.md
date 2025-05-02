@@ -103,7 +103,7 @@ query = "What is RAG"
 
 query_embedding = embed_text(query).reshape(1, -1)
 
-distance_threshold = 1.0
+distance_threshold = 10
 
 D, I = index.search(query_embedding, k=1)
 

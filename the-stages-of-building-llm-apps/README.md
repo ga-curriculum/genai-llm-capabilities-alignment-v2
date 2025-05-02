@@ -49,7 +49,7 @@ graph TD
 
 ### **Step 1:** Install Dependencies
 ```bash
-pip install transformers datasets torch
+!pip install datasets
 ```
 
 ### **Step 2:** Load a Pretrained Model and Dataset

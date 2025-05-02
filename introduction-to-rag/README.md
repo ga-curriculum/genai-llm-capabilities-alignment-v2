@@ -97,6 +97,24 @@ D, I = index.search(query_embedding, k=1)  # Retrieve top-1 match
 print("Retrieved Document:", documents[I[0][0]])
 ```
 
+### **Step 5: Improved Step 4. Being able to determine if the sources can't answer to the question**
+```python
+query = "What is RAG"
+
+query_embedding = embed_text(query).reshape(1, -1)
+
+distance_threshold = 1.0
+
+D, I = index.search(query_embedding, k=1)
+
+if len(I[0]) > 0 and D[0][0] < distance_threshold:
+    retrieved_index = I[0][0]
+    retrieved_doc = documents[retrieved_index]
+    print("Retrieved Document:", retrieved_doc)
+else:
+    print("I can't answer that.")
+```
+
 ## **Evaluating RAG Performance**
 Key evaluation methods:
 

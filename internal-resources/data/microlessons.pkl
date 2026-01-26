@@ -17,6 +17,14 @@ microlesson01 = new Template.Microlesson {
 }
 
 microlesson02 = new Template.Microlesson {
+  friendlyName = "AI Agentic Workflows with Memory and Tools"
+  dirName = "ai-agentic-workflows-with-memory-and-tools"
+  type = "Content"
+  videoUrl = ""
+}
+
+
+microlesson03 = new Template.Microlesson {
   friendlyName = "Introduction to RAG"
   dirName = "introduction-to-rag"
   type = "Content"

@@ -21,7 +21,8 @@ By the end of this module, you will be able to:
 | Lesson | Est. Delivery Time | Skills |
 |--------|------------------|--------|
 | [**Setup**](./setup/README.md) | 2 min | Setup the development environment. |
-| [**The Stages of Building LLMs**](./the-stages-of-building-llm-apps/README.md) | 45 min | Fine-tuning, optimization, and when to apply fine-tuning vs. prompt engineering vs. retrieval. |
-| [**Introduction to RAG**](./introduction-to-rag/README.md) | 45 min | Exploring Retrieval-Augmented Generation, its workflow, components, and evaluation for AI applications. |
+| [**The Stages of Building LLMs**](./the-stages-of-building-llm-apps/README.md) | 35 min | Fine-tuning, optimization, and when to apply fine-tuning vs. prompt engineering vs. retrieval. |
+| [**AI Agentic Workflows with Memory and Tools**](./ai-agentic-workflows-with-memory-and-tools/README.md) | 15 min | Understand how memory, tool use, and retrieval enhance agent autonomy. |
+| [**Introduction to RAG**](./introduction-to-rag/README.md) | 40 min | Exploring Retrieval-Augmented Generation, its workflow, components, and evaluation for AI applications. |
 | **Total Content** | **90 min** |  |
 

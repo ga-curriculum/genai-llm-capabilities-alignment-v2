@@ -26,7 +26,7 @@ By the end of this lesson, you will be able to:
 *   **Build** short‑term and long‑term memory into an agentic workflow.
 *   **Integrate** tools (APIs, functions, databases, RAG systems) into agent behaviors.
 *   **Design** agents capable of planning multi-step and long-running tasks.
-*   **Analyze** when agents should rely on built‑in LLM knowledge vs. retrieval (RAG) vs. fine-tuned expertise.
+*   **Analyze** when agents should rely on built‑in LLM knowledge, retrieval (RAG), or fine-tuned expertise.
 
 
 ## Why Memory & Tools Matter in Advanced Agent Design
@@ -52,14 +52,14 @@ Tools extend agent capabilities beyond text:
 *   Internal business systems
 *   RAG pipelines (vector DB + retrieval)
 
-Agents decide *when* to call a tool and *how* to use its output.
+Agents decide *when* to invoke a tool and *how* to reason over its output.
 
 ### **Retrieval**
 
 From the LLM Capabilities and Alignment module:
 
 *   RAG improves factual accuracy, reduces hallucinations, and updates knowledge at inference time.
-*   Agents can invoke retrieval when model knowledge is insufficient.
+*   Agents can invoke retrieval when model knowledge is insufficient or outdated.
 
 This is crucial for grounding agent decisions in external, up‑to‑date information.
 
@@ -84,7 +84,7 @@ These workflows complement the long‑running training and evaluation cycles des
 | ----------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Short‑Term Memory | Stores conversational history for a session.              | Multi-step reasoning with context.                                                                                                                                                                                      |
 | Long‑Term Memory  | Persists across sessions; stored in a DB or vector store. | Agent remembering past user goals.                                                                                                                                                                                      |
-| Episodic Memory   | Records previous actions + results for reflection.        | Reflection agent behavior. |
+| Episodic Memory   | Records previous actions + results for reflection.        | Reflection-based agent behavior. |
 | Retrieval Memory  | External embeddings + vector search (RAG).                | Real‑time fact lookup.     |
 
 ### Tools
@@ -264,5 +264,5 @@ In this lesson, you learned how to integrate:
 *   **Planning** for task decomposition
 *   **Long‑running execution** for autonomous workflows
 
-These capabilities transform simple LLM apps into **robust agentic systems**—bridging foundational agent workflows with modern LLM alignment, fine‑tuning, and retrieval strategies.  
+Together, these capabilities transform simple LLM apps into **robust agentic systems**—bridging foundational agent workflows with modern LLM alignment, fine‑tuning, and retrieval strategies.  
 They also reflect the decision frameworks, RAG architectures, and optimization strategies from the LLM Capabilities and Alignment module. 
